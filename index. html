@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>1-5th Consolidated Marks Register</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 15px; background-color: #f8fafc; color: #0f172a; }
+    .app-header { background: #1e3a8a; color: white; padding: 15px; text-align: center; border-radius: 6px; }
+    .app-header h1 { margin: 0; font-size: 1.3rem; }
+    .app-header h2 { margin: 5px 0 0 0; font-size: 1rem; opacity: 0.9; }
+    
+    .table-container { margin-top: 20px; overflow-x: auto; background: white; padding: 10px; border-radius: 6px; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+    table { width: 100%; border-collapse: collapse; font-size: 0.75rem; text-align: center; }
+    th, td { border: 1px solid #64748b; padding: 6px 4px; }
+    th { background-color: #f1f5f9; }
+    .head-subj { background-color: #e0f2fe; }
+    .head-co { background-color: #fef3c7; }
+    
+    .footer-signature { margin-top: 20px; text-align: right; font-weight: bold; color: #1e3a8a; font-size: 0.85rem; }
+  </style>
+</head>
+<body>
+
+  <div class="app-header">
+    <h1>GOVERNMENT LOWER/HIGHER PRIMARY SCHOOL</h1>
+    <h2>1-5TH CONSOLIDATED MARKS REGISTER (2026-27)</h2>
+  </div>
+
+  <div class="table-container">
+    <table>
+      <thead>
+        <tr>
+          <th rowspan="2">SL. NO.</th>
+          <th rowspan="2">STUDENT NAME</th>
+          <th rowspan="2">ATTENDANCE</th>
+          <th colspan="4" class="head-subj">KANNADA</th>
+          <th colspan="4" class="head-subj">ENGLISH</th>
+          <th colspan="4" class="head-subj">MATHS</th>
+          <th colspan="4" class="head-subj">EVS</th>
+          <th colspan="4" class="head-co">CO-CURRICULAR</th>
+          <th rowspan="2">TOTAL (/400)</th>
+          <th rowspan="2">PERCENTAGE</th>
+          <th rowspan="2">GRADE</th>
+        </tr>
+        <tr>
+          <th class="head-subj">S1</th><th class="head-subj">S2</th><th class="head-subj">Tot</th><th class="head-subj">Grd</th>
+          <th class="head-subj">S1</th><th class="head-subj">S2</th><th class="head-subj">Tot</th><th class="head-subj">Grd</th>
+          <th class="head-subj">S1</th><th class="head-subj">S2</th><th class="head-subj">Tot</th><th class="head-subj">Grd</th>
+          <th class="head-subj">S1</th><th class="head-subj">S2</th><th class="head-subj">Tot</th><th class="head-subj">Grd</th>
+          <th class="head-co">PE</th><th class="head-co">Music</th><th class="head-co">Craft</th><th class="head-co">Health</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td style="text-align: left; font-weight: bold;">Sample Student</td>
+          <td>210/220</td>
+          <td>42</td><td>45</td><td>87</td><td>A+</td>
+          <td>40</td><td>38</td><td>78</td><td>A</td>
+          <td>45</td><td>48</td><td>93</td><td>A+</td>
+          <td>41</td><td>43</td><td>84</td><td>A+</td>
+          <td>A+</td><td>A</td><td>A+</td><td>A</td>
+          <td><b>342</b></td>
+          <td><b>85.5%</b></td>
+          <td><b>A+</b></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="footer-signature">
+    Designed by: LAKSHMIKANTH R (Mob: 9844444871)
+  </div>
+
+</body>
+</html>
